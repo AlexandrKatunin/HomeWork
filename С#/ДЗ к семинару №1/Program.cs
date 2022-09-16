@@ -6,7 +6,7 @@ a = 2 b = 10 -> max = 10 min = 2
 a = -9 b = -3 -> max = -3 min = -9 */
 
 
-Console.Clear();
+/* Console.Clear();
 
 Console.Write("Введите первое число: ");
 
@@ -41,3 +41,65 @@ else
 
     Console.WriteLine($"max = {max}, min = {min}");
 } 
+ */
+
+
+
+
+/* Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт
+ максимальное из этих чисел.
+
+2, 3, 7 -> 7
+44 5 78 -> 78
+22 3 9 -> 22
+ */
+
+
+
+Console.Clear();
+
+Console.Write("Введите первое число: ");
+
+string input1 = Console.ReadLine();
+
+int numA = int.Parse(input1);
+
+
+Console.Write("Введите второе число: ");
+
+string input2 = Console.ReadLine();
+
+int numB = int.Parse(input2);
+
+Console.Write("Введите третье число: ");
+
+string input3 = Console.ReadLine();
+
+int numC = int.Parse(input3);
+
+
+int max = 0;
+
+if (numA > numB)
+{
+max = numA;
+
+}
+else
+{
+
+max = numB;
+
+}
+ if(numC >max)
+ {
+
+max = numC;
+
+ }
+ else
+ {
+
+Console.WriteLine(max);
+
+ }
