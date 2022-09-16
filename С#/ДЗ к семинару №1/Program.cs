@@ -112,7 +112,7 @@ Console.WriteLine(max);
 -3 -> нет
 7 -> нет */
 
-
+/* 
 Console.Clear();
 
 Console.Write("Введите число: ");
@@ -131,5 +131,30 @@ else
 {
 Console.WriteLine("Это число не чётное");
 
+
+} */
+
+
+/* Задача 8: Напишите программу, которая на вход принимает число (N),
+ а на выходе показывает все чётные числа от 1 до N.
+
+5 -> 2, 4
+8 -> 2, 4, 6, 8 */
+
+
+Console.Clear();
+
+
+Console.Write("Введите число: ");
+int num = int.Parse(Console.ReadLine());
+
+int count = num - num + 2;
+
+while(count <= num )
+{
+
+Console.WriteLine(count);
+
+count = count + 2;
 
 }
