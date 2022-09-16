@@ -55,7 +55,7 @@ else
  */
 
 
-
+/* 
 Console.Clear();
 
 Console.Write("Введите первое число: ");
@@ -102,4 +102,34 @@ max = numC;
 
 Console.WriteLine(max);
 
- }
+ } */
+
+
+/*  Задача 6: Напишите программу, которая на вход принимает число и выдаёт, 
+ является ли число чётным (делится ли оно на два без остатка).
+
+4 -> да
+-3 -> нет
+7 -> нет */
+
+
+Console.Clear();
+
+Console.Write("Введите число: ");
+
+string input = Console.ReadLine();
+
+int num = int.Parse(input);
+
+if(num % 2 == 0)
+{
+Console.WriteLine("Это число чётное");
+
+
+}
+else 
+{
+Console.WriteLine("Это число не чётное");
+
+
+}
