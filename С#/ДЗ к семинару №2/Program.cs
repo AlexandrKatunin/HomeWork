@@ -51,16 +51,19 @@ string input = Console.ReadLine();
 
 int num = int.Parse(input);
 
+if (num <= 99)
+
+    Console.WriteLine("третьего числа нет");
+
 if (num < 0)
 
     Console.WriteLine(input[3]);
 
  else
 
-    Console.WriteLine(input[2]);
+    Console.WriteLine(input[2]); */
 
 
- */
 
 
 
@@ -71,8 +74,7 @@ if (num < 0)
 6 -> да
 7 -> да
 1 -> нет */
-
-
+ 
 Console.Clear();
 Console.WriteLine("Введите число ");
 
@@ -82,21 +84,15 @@ int num = int.Parse(input);
 
 string[] week = {"Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"};
 
-
-
 if (num > 7 || num <= 0)
 {
 
      Console.WriteLine("Введёное число не соответствует колличеству дней в неделе ");
 }
 
-
-
 else
 
     num = (num - 1);
-
-
 
 Console.WriteLine(week[num]);
 
