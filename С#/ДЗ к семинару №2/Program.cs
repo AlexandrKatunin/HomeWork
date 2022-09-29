@@ -94,6 +94,8 @@ else
 
     num = (num - 1);
 
-Console.WriteLine(week[num]);
+if (num == 6  || num == 7)
+
+Console.WriteLine($"{week[num]} Выходой!");
 
 
