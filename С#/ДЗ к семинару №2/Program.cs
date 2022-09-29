@@ -43,6 +43,31 @@ Console.WriteLine("Число не трехзначное");
 32679 -> 6
  */
 
+Console.Clear();
+
+Console.WriteLine("Введите число ");
+
+string input = Console.ReadLine();
+
+int num = int.Parse(input);
+
+if (num < 0)
+
+    Console.WriteLine(input[3]);
+
+ else
+
+    Console.WriteLine(input[2]);
 
 
 
+
+
+
+
+
+/* Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
+
+6 -> да
+7 -> да
+1 -> нет */
