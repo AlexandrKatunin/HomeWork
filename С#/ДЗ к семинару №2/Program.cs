@@ -98,4 +98,7 @@ if (num == 6  || num == 7)
 
 Console.WriteLine($"{week[num]} Выходой!");
 
+else
 
+    Console.WriteLine(week[num]);
+    
